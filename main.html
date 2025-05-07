@@ -4,12 +4,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>BGMI Player Stats</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 40px auto;
+            font-family: Arial, sans-serif;
+        }
+        thead {
+            background-color: #1e3d59;
+            color: white;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tbody tr:hover {
+            background-color: #e0e0e0;
+        }
+    </style>
 </head>
 <body>
-    <!-- add table here -->
 
-        
+    <h2 style="text-align: center; font-family: Arial, sans-serif;">BGMI Player Stats</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Player Name</th>
+                <th>Kills</th>
+                <th>Matches</th>
+                <th>Wins</th>
+                <th>Top 10%</th>
+                <th>Average Damage</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ShadowX</td>
+                <td>75</td>
+                <td>30</td>
+                <td>5</td>
+                <td>20</td>
+                <td>480</td>
+            </tr>
+            <tr>
+                <td>Blaze99</td>
+                <td>68</td>
+                <td>28</td>
+                <td>6</td>
+                <td>18</td>
+                <td>450</td>
+            </tr>
+            <tr>
+                <td>AlphaWolf</td>
+                <td>85</td>
+                <td>35</td>
+                <td>7</td>
+                <td>25</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>IronFist</td>
+                <td>50</td>
+                <td>25</td>
+                <td>3</td>
+                <td>15</td>
+                <td>390</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 </html>
